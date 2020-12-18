@@ -1,0 +1,52 @@
+Rank   :8 Template name:5wz4A
+REMARK :Column 1 -  30 present Atom & Residue records of query sequence.
+REMARK :Column 31 - 54 present XYZ coordinates of query sequence obtained after threading alignment.
+REMARK :Column 55 - 59 present residue number in Template
+REMARK :Column 60 - 59 present residue name of Template
+ATOM   2001  CA  LEU    38      17.163  20.936  65.835    1 SER
+ATOM   2002  CA  ILE    39      18.735  24.255  64.842    2 ILE
+ATOM   2003  CA  ALA    40      21.847  25.488  63.070    3 PHE
+ATOM   2004  CA  LEU    41      23.431  28.627  64.521    4 VAL
+ATOM   2005  CA  ASP    42      24.945  31.241  62.196    5 ALA
+ATOM   2006  CA  ALA    43      27.489  33.984  62.906    6 THR
+ATOM   2007  CA  ASN    44      24.813  36.689  62.874    7 SER
+ATOM   2008  CA  VAL    45      23.253  34.984  65.888    8 PHE
+ATOM   2009  CA  LEU    46      26.481  34.178  67.766    9 TRP
+ATOM   2010  CA  LEU    47      27.618  37.772  67.226   10 ALA
+ATOM   2011  CA  ASN    48      24.390  39.062  68.756   11 ALA
+ATOM   2012  CA  LEU    49      24.490  36.583  71.630   12 LEU
+ATOM   2013  CA  TYR    50      28.153  37.219  72.424   13 GLY
+ATOM   2014  CA  ARG    51      27.966  41.011  72.243   14 ASN
+ATOM   2015  CA  TYR    52      25.870  42.639  74.972   15 ALA
+ATOM   2016  CA  ASN    53      26.011  45.892  73.013   16 GLY
+ATOM   2017  CA  GLU    54      24.496  44.324  69.905   17 ASP
+ATOM   2018  CA  ALA    55      21.056  45.763  69.130   18 ALA
+ATOM   2019  CA  THR    56      19.635  42.250  68.806   19 ARG
+ATOM   2020  CA  ARG    57      21.299  40.946  71.981   20 HIS
+ATOM   2021  CA  ASN    58      18.033  40.795  73.916   21 GLY
+ATOM   2022  CA  ASP    59      16.281  39.053  71.042   22 THR
+ATOM   2023  CA  LEU    60      19.176  36.592  70.816   23 ALA
+ATOM   2024  CA  MET    61      19.057  35.735  74.519   24 LYS
+ATOM   2025  CA  SER    62      15.314  35.205  74.265   25 ARG
+ATOM   2026  CA  LEU    63      15.830  32.852  71.320   26 LEU
+ATOM   2027  CA  MET    64      18.665  31.065  73.117   27 TRP
+ATOM   2028  CA  GLU    65      16.399  30.366  76.088   28 ALA
+ATOM   2029  CA  LEU    66      13.728  28.788  73.881   29 SER
+ATOM   2030  CA  SER    68      16.007  26.692  71.659   30 LYS
+ATOM   2031  CA  ALA    69      15.477  22.940  70.994   31 PRO
+ATOM   2032  CA  ARG    70      17.805  20.307  72.551   32 PRO
+ATOM   2033  CA  LEU    71      19.904  19.741  69.418   33 VAL
+ATOM   2034  CA  TRP    72      22.060  22.783  68.667   34 VAL
+ATOM   2035  CA  VAL    73      27.047  25.121  64.138   35 THR
+ATOM   2036  CA  PRO    74      30.197  24.807  62.022   36 SER
+ATOM   2037  CA  HIS    75      33.932  25.357  62.251   37 ASN
+ATOM   2038  CA  GLN    76      33.577  28.060  59.585   38 HIS
+ATOM   2039  CA  ALA    77      30.906  29.857  61.594   39 VAL
+ATOM   2040  CA  MET    78      32.879  29.848  64.853   40 LEU
+ATOM   2041  CA  GLU    79      35.902  31.174  62.999   41 GLY
+ATOM   2042  CA  GLU    80      33.820  33.921  61.414   42 GLU
+ATOM   2043  CA  PHE    81      32.271  34.670  64.805   43 THR
+ATOM   2044  CA  TRP    82      35.713  34.989  66.402   44 TRP
+ATOM   2045  CA  ARG    83      36.812  37.451  63.742   45 THR
+ATOM   2046  CA  ASN    84      33.650  39.533  63.979   46 LEU
+TER

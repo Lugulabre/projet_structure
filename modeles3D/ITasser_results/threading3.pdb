@@ -1,0 +1,53 @@
+Rank   :3 Template name:6a7vA
+REMARK :Column 1 -  30 present Atom & Residue records of query sequence.
+REMARK :Column 31 - 54 present XYZ coordinates of query sequence obtained after threading alignment.
+REMARK :Column 55 - 59 present residue number in Template
+REMARK :Column 60 - 59 present residue name of Template
+ATOM   1001  CA  LEU    38     -10.668  62.504  44.268    2 SER
+ATOM   1002  CA  ILE    39      -7.473  60.513  44.818    3 ILE
+ATOM   1003  CA  ALA    40      -5.339  61.645  47.778    4 LEU
+ATOM   1004  CA  LEU    41      -1.818  60.278  47.593    5 ILE
+ATOM   1005  CA  ASP    42      -0.428  59.842  51.103    6 ASP
+ATOM   1006  CA  ALA    43       2.986  61.165  52.119    7 THR
+ATOM   1007  CA  ASN    44       4.172  57.567  52.372    8 SER
+ATOM   1008  CA  VAL    45       3.524  56.915  48.688    9 ALA
+ATOM   1009  CA  LEU    46       4.803  60.341  47.678   10 TRP
+ATOM   1010  CA  LEU    47       8.160  59.797  49.341   11 VAL
+ATOM   1011  CA  ASN    48       8.694  56.546  47.443   12 GLU
+ATOM   1012  CA  LEU    49       8.095  58.425  44.202   13 TYR
+ATOM   1013  CA  TYR    50      10.336  61.331  45.150   14 PHE
+ATOM   1014  CA  ARG    51      13.185  58.967  46.010   15 ARG
+ATOM   1015  CA  TYR    52      12.629  56.790  42.911   16 ALA
+ATOM   1016  CA  ASN    53      12.719  53.661  45.054   17 THR
+ATOM   1017  CA  GLU    54      11.112  51.541  42.324   18 GLY
+ATOM   1018  CA  ALA    55       8.775  50.056  44.946   19 SER
+ATOM   1019  CA  THR    56       4.125  52.388  45.554   21 ALA
+ATOM   1020  CA  ARG    57       6.435  54.602  43.512   22 ALA
+ATOM   1021  CA  ASN    58       5.343  52.925  40.287   23 VAL
+ATOM   1022  CA  ASP    59       1.687  53.365  41.225   24 GLU
+ATOM   1023  CA  LEU    60       2.301  57.046  41.923   25 VAL
+ATOM   1024  CA  MET    61       3.931  57.340  38.504   26 ARG
+ATOM   1025  CA  SER    62       0.940  55.621  36.915   27 ARG
+ATOM   1026  CA  LEU    63      -1.437  57.983  38.692   28 LEU
+ATOM   1027  CA  MET    64       0.542  60.968  37.450   29 LEU
+ATOM   1028  CA  GLU    65       0.455  59.609  33.901   30 SER
+ATOM   1029  CA  LEU    66      -3.093  58.392  33.527   31 GLU
+ATOM   1030  CA  VAL    67      -5.235  60.000  36.256   32 GLU
+ATOM   1031  CA  SER    68      -3.574  63.385  36.896   33 ALA
+ATOM   1032  CA  ALA    69      -6.897  65.288  36.887   34 ALA
+ATOM   1033  CA  ARG    70      -8.196  63.265  39.865   35 ARG
+ATOM   1034  CA  LEU    71      -5.127  63.738  42.091   36 ILE
+ATOM   1035  CA  TRP    72      -5.727  65.951  45.126   37 ALA
+ATOM   1036  CA  VAL    73      -3.711  67.332  48.024   38 MET
+ATOM   1037  CA  PRO    74      -4.582  68.346  51.559   39 CYS
+ATOM   1038  CA  HIS    75      -2.778  70.609  53.918   40 GLU
+ATOM   1039  CA  GLN    76      -1.747  68.003  56.484   41 PRO
+ATOM   1040  CA  ALA    77      -0.063  66.026  53.713   42 ILE
+ATOM   1041  CA  MET    78       1.419  69.251  52.353   43 ALA
+ATOM   1042  CA  GLU    79       2.929  70.121  55.724   44 MET
+ATOM   1043  CA  GLU    80       4.528  66.689  55.948   45 GLU
+ATOM   1044  CA  PHE    81       5.902  66.906  52.427   46 ILE
+ATOM   1045  CA  TRP    82       7.417  70.344  52.861   47 LEU
+ATOM   1046  CA  ARG    83       8.814  69.536  56.302   48 SER
+ATOM   1047  CA  ASN    84      11.096  66.881  54.806   49 GLY
+TER
