@@ -1,0 +1,3 @@
+select resi 29-36 or resi 43-51 or resi 53-67 or resi 75-120 or resi 128-155 or resi 165-174 or resi 185-199 or resi 217-232 or resi 261-271 or resi 280-292 or resi 297-341
+
+select resi 38-42 or resi 275-279 or resi 237-241

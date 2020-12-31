@@ -1,0 +1,216 @@
+> 1 & ri 7-26|ri 46-63|ri 82-102|ri 106-124|ri134-153|ri 176-195|ri 215-232|ri 251-271|ri 275-293|ri 303-322
+
+Copied index group 1 'Protein'
+Found 40 atoms with resind.+1 in range 7-26
+Merged two groups with AND: 764 40 -> 40
+Found 42 atoms with resind.+1 in range 46-63
+Merged two groups with OR: 40 42 -> 82
+Found 48 atoms with resind.+1 in range 82-102
+Merged two groups with OR: 82 48 -> 130
+Found 35 atoms with resind.+1 in range 106-124
+Merged two groups with OR: 130 35 -> 165
+Found 50 atoms with resind.+1 in range 134-153
+Merged two groups with OR: 165 50 -> 215
+Found 40 atoms with resind.+1 in range 176-195
+Merged two groups with OR: 215 40 -> 255
+Found 42 atoms with resind.+1 in range 215-232
+Merged two groups with OR: 255 42 -> 297
+Found 48 atoms with resind.+1 in range 251-271
+Merged two groups with OR: 297 48 -> 345
+Found 35 atoms with resind.+1 in range 275-293
+Merged two groups with OR: 345 35 -> 380
+Found 50 atoms with resind.+1 in range 303-322
+Merged two groups with OR: 380 50 -> 430
+
+ 24 Protein_&_r_7-26_r_46-63_r_82-102_r_106-124_r_134-153_r_176-195_r_215-232_r_251-271_r_275-293_r_303-322:   430 atoms
+
+> 1 & a BB
+
+Copied index group 1 'Protein'
+Found 338 atoms with name BB
+Merged two groups with AND: 764 338 -> 338
+
+ 25 Protein_&_BB        :   338 atoms
+
+> 24 & 25
+
+Copied index group 24 'Protein_&_r_7-26_r_46-63_r_82-102_r_106-124_r_134-153_r_176-195_r_215-232_r_251-271_r_275-293_r_303-322'
+Copied index group 25 'Protein_&_BB'
+Merged two groups with AND: 430 338 -> 196
+
+ 26 Protein_&_r_7-26_r_46-63_r_82-102_r_106-124_r_134-153_r_176-195_r_215-232_r_251-271_r_275-293_r_303-322_&_Protein_&_BB:   196 atoms
+
+> name 25 Prot_BB
+
+
+> name 26 TM_BB
+
+
+> 25 & ri 1-169
+
+Copied index group 25 'Prot_BB'
+Found 382 atoms with resind.+1 in range 1-169
+Merged two groups with AND: 338 382 -> 169
+
+ 27 Prot_BB_&_r_1-169   :   169 atoms
+
+> name 27 ChainA_BB
+
+
+> 1 & ri 1-169
+
+Copied index group 1 'Protein'
+Found 382 atoms with resind.+1 in range 1-169
+Merged two groups with AND: 764 382 -> 382
+
+ 28 Protein_&_r_1-169   :   382 atoms
+
+> name 28 ChainA
+
+
+> 1 & 170-338
+
+Copied index group 1 'Protein'
+Group 170 does not exist
+
+Syntax error: "-338"
+
+> 1 & ri 170-338
+
+Copied index group 1 'Protein'
+Found 382 atoms with resind.+1 in range 170-338
+Merged two groups with AND: 764 382 -> 382
+
+ 29 Protein_&_r_170-338 :   382 atoms
+
+> name 20 ChainB
+
+
+> 29 & a BB
+
+Copied index group 29 'Protein_&_r_170-338'
+Found 338 atoms with name BB
+Merged two groups with AND: 382 338 -> 169
+
+ 30 Protein_&_r_170-338_&_BB:   169 atoms
+
+> name 30 ChainB_BB
+
+
+> 26 & ri 1-169
+
+Copied index group 26 'TM_BB'
+Found 382 atoms with resind.+1 in range 1-169
+Merged two groups with AND: 196 382 -> 98
+
+ 31 TM_BB_&_r_1-169     :    98 atoms
+
+> name 31 TM_A_BB        
+
+
+> 26 & ri 170-338
+
+Copied index group 26 'TM_BB'
+Found 382 atoms with resind.+1 in range 170-338
+Merged two groups with AND: 196 382 -> 98
+
+ 32 TM_BB_&_r_170-338   :    98 atoms
+
+> name 32 TM_B_BB
+
+
+> 
+
+
+  0 System              : 16776 atoms
+  1 Protein             :   764 atoms
+  2 Protein-H           :   764 atoms
+  3 C-alpha             :     0 atoms
+  4 Backbone            :     0 atoms
+  5 MainChain           :     0 atoms
+  6 MainChain+Cb        :     0 atoms
+  7 MainChain+H         :     0 atoms
+  8 SideChain           :   764 atoms
+  9 SideChain-H         :   764 atoms
+ 10 Prot-Masses         :   764 atoms
+ 11 non-Protein         : 16012 atoms
+ 12 Other               : 15868 atoms
+ 13 CHOL                :  1712 atoms
+ 14 DMPC                :  4280 atoms
+ 15 W                   :  9876 atoms
+ 16 NA+                 :    68 atoms
+ 17 CL-                 :    76 atoms
+ 18 Ion                 :   144 atoms
+ 19 CHOL                :  1712 atoms
+ 20 ChainB              :  4280 atoms
+ 21 W                   :  9876 atoms
+ 22 NA+                 :    68 atoms
+ 23 CL-                 :    76 atoms
+ 24 Protein_&_r_7-26_r_46-63_r_82-102_r_106-124_r_134-153_r_176-195_r_215-232_r_251-271_r_275-293_r_303-322:   430 atoms
+ 25 Prot_BB             :   338 atoms
+ 26 TM_BB               :   196 atoms
+ 27 ChainA_BB           :   169 atoms
+ 28 ChainA              :   382 atoms
+ 29 Protein_&_r_170-338 :   382 atoms
+ 30 ChainB_BB           :   169 atoms
+ 31 TM_A_BB             :    98 atoms
+ 32 TM_B_BB             :    98 atoms
+
+ nr : group       !   'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom        &   'del' nr         'splitres' nr   'l': list residues
+ 't': atom type   |   'keep' nr        'splitat' nr    'h': help
+ 'r': residue         'res' nr         'chain' char
+ "name": group        'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> name 24 TMAB
+
+
+> 
+
+
+  0 System              : 16776 atoms
+  1 Protein             :   764 atoms
+  2 Protein-H           :   764 atoms
+  3 C-alpha             :     0 atoms
+  4 Backbone            :     0 atoms
+  5 MainChain           :     0 atoms
+  6 MainChain+Cb        :     0 atoms
+  7 MainChain+H         :     0 atoms
+  8 SideChain           :   764 atoms
+  9 SideChain-H         :   764 atoms
+ 10 Prot-Masses         :   764 atoms
+ 11 non-Protein         : 16012 atoms
+ 12 Other               : 15868 atoms
+ 13 CHOL                :  1712 atoms
+ 14 DMPC                :  4280 atoms
+ 15 W                   :  9876 atoms
+ 16 NA+                 :    68 atoms
+ 17 CL-                 :    76 atoms
+ 18 Ion                 :   144 atoms
+ 19 CHOL                :  1712 atoms
+ 20 ChainB              :  4280 atoms
+ 21 W                   :  9876 atoms
+ 22 NA+                 :    68 atoms
+ 23 CL-                 :    76 atoms
+ 24 TMAB                :   430 atoms
+ 25 Prot_BB             :   338 atoms
+ 26 TM_BB               :   196 atoms
+ 27 ChainA_BB           :   169 atoms
+ 28 ChainA              :   382 atoms
+ 29 Protein_&_r_170-338 :   382 atoms
+ 30 ChainB_BB           :   169 atoms
+ 31 TM_A_BB             :    98 atoms
+ 32 TM_B_BB             :    98 atoms
+
+ nr : group       !   'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom        &   'del' nr         'splitres' nr   'l': list residues
+ 't': atom type   |   'keep' nr        'splitat' nr    'h': help
+ 'r': residue         'res' nr         'chain' char
+ "name": group        'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> name 29 ChainB
+
+
+

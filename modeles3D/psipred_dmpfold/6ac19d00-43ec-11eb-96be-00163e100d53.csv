@@ -1,0 +1,10 @@
+job,step,type,name,version,parameters
+dmpfold,0,Dataset,Unired90,latest,"null"
+dmpfold,0,Dataset,Uniclust30,2018_08,"null"
+dmpfold,0,Software,PSIBLAST,2.2.26,"null"
+dmpfold,0,Software,HHBlits,3.0.0,"null"
+dmpfold,1,Software,pytorch,1.01,"null"
+dmpfold,1,Software,modeller,9.17,"null"
+dmpfold,1,Software,psicov,2.4,"null"
+dmpfold,1,Software,freecontact,1.0.21,"null"
+dmpfold,1,Software,ccmpred,nov_2018,"null"
