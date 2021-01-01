@@ -1,0 +1,29 @@
+#include "martini.itp"
+
+#include "Protein_A.itp"
+
+#include "Protein_B.itp"
+
+#include "dmpc.itp"
+
+#include "chol.itp"
+
+#include "ion.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>DMPC:CHOL=10.0:5.0 LowerLeaflet>DMPC:CHOL=10.0:5.0
+
+[ molecules ]
+; name  number
+Protein_A        1
+Protein_B	 1
+; "I mean, the good stuff is just INSANE" --Julia Ormond
+CHOL           107
+DMPC           214
+CHOL           108
+DMPC           217
+W            10100
+NA+             70
+CL-             78
+

@@ -1,0 +1,18 @@
+; X: 19.200 (25 bins) Y: 10.460 (14 bins) in upper leaflet
+; X: 19.200 (25 bins) Y: 10.460 (14 bins) in lower leaflet
+; 322 lipids in upper leaflet, 327 lipids in lower leaflet
+; NDX Solute 1 764
+; Charge of protein: 8.000000
+; NDX Membrane 765 6812
+; Charge of membrane: 0.000000
+; Total charge: 8.000000
+; NDX Solvent 6813 17277
+; NDX System 1 17277
+; "I mean, the good stuff is just INSANE" --Julia Ormond
+CHOL           107
+DMPC           214
+CHOL           109
+DMPC           218
+W            10315
+NA+             71
+CL-             79

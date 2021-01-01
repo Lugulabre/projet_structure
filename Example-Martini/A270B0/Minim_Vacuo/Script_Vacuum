@@ -1,0 +1,5 @@
+echo 0 12 0 |gmx editconf -f $1.pdb -o $1.gro -n A0B0.ndx -princ -rotate 90 0 0 -d 1.4
+gmx grompp -f em.mdp -c $1.gro -p toponew.top -o $1"_em".tpr
+gmx mdrun -deffnm $1"_em"
+gmx grompp -f cg.mdp -c $1"_em".gro -p toponew.top -o $1"_cg".tpr
+gmx mdrun -deffnm $1"_cg"

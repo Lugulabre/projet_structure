@@ -1,0 +1,24 @@
+ 1 & ri 7-26|ri 46-63|ri 82-102|ri 106-124|ri134-153|ri 176-195|ri 215-232|ri 251-271|ri 275-293|ri 303-322
+ 1 & a BB
+ 24 & 25
+ name 25 Prot_BB
+ name 26 TM_BB
+ 25 & ri 1-169
+ name 27 ChainA_BB
+ 1 & ri 1-169
+ name 28 ChainA
+ 1 & ri 170-338
+ name 20 ChainB
+ 29 & a BB
+ name 30 ChainB_BB
+ 26 & ri 1-169
+ name 31 TM_A_BB        
+ 26 & ri 170-338
+ name 32 TM_B_BB
+ name 24 TMAB
+ name 29 ChainB
+18|15   
+name 33 Solvent 
+13 |14
+name 34 Membrane
+quit

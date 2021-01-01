@@ -1,0 +1,44 @@
+define           =  -DPOSRES -DPOSRES_FC=1000
+dt               =  0.02 
+nsteps           =  25000
+nstxout          =  0 
+nstvout          =  0
+nstlog           =  100 
+nstxtcout        =  100 
+xtc-precision    =  100 
+rlist            =  1.4 
+;xcoulombtype      =  shift 
+epsilon_r        =  15 
+vdw-type         =  shift 
+rvdw-switch      =  0.9 
+rvdw             =  1.2 
+tcoupl           =  v-rescale 
+tc-grps          =  Protein Membrane Solvent 
+tau-t            =  1.0 1.0 1.0
+ref-t            =  300 300 300 
+Pcoupl           =  Berendsen 
+;Pcoupl           =  parrinello-rahman 
+Pcoupltype       =  semiisotropic
+tau-p            =  12.0 12.0
+compressibility  =  3e-4 3e-4
+ref-p            =  1.0 1.0
+refcoord_scaling =  all
+; Neighbor searching
+cutoff-scheme           = Verlet  ; pair list with buffering
+nstlist                 = 20      ; Frequency to update the neighbor list
+ns-type                 = grid    ; Make a grid in the box and only check atoms in neighboring grid cells
+verlet-buffer-tolerance = 0.005   ; Sets the maximum allowed error for pair interactions per particle
+pbc                     = xyz     ; Periodic boundary conditions in all directions
+lincs-order=8
+
+; Electrostatics
+coulombtype    = PME          ; Particle-Mesh-Ewals electrostatics
+pme-order      = 4            ; Interpolation order for PME. 4 equals cubic interpolation.
+fourierspacing = 0.10         ; Fourier-space grid point spacing (lower limit)
+rcoulomb       = 1.2          ; Distance for the Coulomb cut-off
+
+; VdW
+DispCorr       = EnerPres     ; apply long range dispersion corrections for Energy and Pressure
+
+gen_vel=yes
+gen_temp=300

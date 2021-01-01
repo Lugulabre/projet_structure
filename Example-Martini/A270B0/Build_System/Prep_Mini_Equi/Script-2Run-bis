@@ -1,0 +1,16 @@
+#cp ../../Minim_Vacuo/$1"_Reor_cg".gro .
+#cp ../../Minim_Vacuo/toponew.top .
+#python2.7 insane.py  -f $1"_Reor_cg".gro -o $1"_Reor_cg_Membrane".gro -l CHOL:101 -u CHOL:104  -l DMPC:202 -u DMPC:208 -sol W:9944 -salt 0.10 -center -box 19.2,10.46,10.5 -pbc optimal >& Env;grep -v \; Env >& Env2;cat ../../Minim_Vacuo/toponew.top Env2 >& topoSys.top
+#gmx make_ndx -f $1"_Reor_cg_Membrane".gro  -o $1"_Membrane".ndx < IndexBuilding-correct
+#gmx grompp -f em_Rajas.mdp  -c $1"_Reor_cg_Membrane".gro -o $1"_Reor_cg_Membrane_em_Rajas".tpr -p topoSys.top
+#gmx mdrun -deffnm $1"_Reor_cg_Membrane_em_Rajas"
+#gmx grompp -f cg_Rajas.mdp -c $1"_Reor_cg_Membrane_em_Rajas".gro -o $1"_Reor_cg_Membrane_cg_Rajas".tpr -p topoSys.top
+#gmx mdrun -deffnm $1"_Reor_cg_Membrane_cg_Rajas"
+#gmx grompp -f equilibration-1000.mdp -c $1"_Reor_cg_Membrane_em_Rajas".gro  -r $1"_Reor_cg_Membrane_em_Rajas".gro -o $1"_Reor_cg_Membrane_eq1000".tpr -p topoSys.top -n $1"_Membrane".ndx
+#gmx mdrun -deffnm $1"_Reor_cg_Membrane_eq1000" 
+#gmx grompp -f equilibration-100.mdp -c $1"_Reor_cg_Membrane_eq1000".gro -r $1"_Reor_cg_Membrane_eq1000".gro -o $1"_Reor_cg_Membrane_eq100".tpr -p topoSys.top   -n $1"_Membrane".ndx
+#gmx mdrun -deffnm $1"_Reor_cg_Membrane_eq100
+gmx grompp -f equilibration_noposres.mdp -c $1"_Reor_cg_Membrane_eq100".gro -r $1"_Reor_cg_Membrane_eq100".gro -p topoSys.top -n $1"_Membrane".ndx -o $1"_Reor_cg_Membrane_eq_noposres".tpr 
+gmx mdrun -deffnm $1"_Reor_cg_Membrane_eq_noposres"
+#gmx grompp -f md-mod.mdp -c $1"_Reor_cg_Membrane_eq_noposres".gro -o $1"_Reor_cg_Membrane_md".tpr -n $1"_Membrane".ndx -p topoSys.top
+#gmx mdrun -deffnm $1"_Reor_cg_Membrane_md"
